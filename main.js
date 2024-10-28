@@ -1,8 +1,6 @@
-import {
-    EllipsisVectorLayer,
-    EllipsisRasterLayer,
-    AsyncEllipsisRasterLayer,
-  } from "../lib";
+<script src="lib/EllipsisVectorLayer.js"></script>
+    <script src="lib/EllipsisRasterLayer.js"></script>
+    <script src="lib/AsyncEllipsisRasterLayer.js"></script>
   
   var map = L.map("map").setView([-27.3416, 153.074], 13);
   
