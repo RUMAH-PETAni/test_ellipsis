@@ -16,11 +16,28 @@
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
       crossorigin=""
     ></script>
+    <script src="lib/EllipsisVectorLayer.js"></script>
+    <script src="lib/EllipsisRasterLayer.js"></script>
+    <script src="lib/AsyncEllipsisRasterLayer.js"></script>
     <title>Ellipsis Leafletjs Package Test</title>
   </head>
   <body>
     <h1>Test for Ellipsis Drive Leafletjs Package</h1>
     <div style="width: 1000px; height: 1000px" id="map"></div>
-    <script src="main.js"></script>
+  
+    <script>
+  
+  var map = L.map("map").setView([-27.3416, 153.074], 13);
+  
+  var tiles = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+    attribution:
+      '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+  
+  new EllipsisVectorLayer({
+    pathId: "06ac0f1d-4b46-4f89-be84-accc1ce4843d",
+  }).addTo(map);
+  
+   </script>
   </body>
 </html>
