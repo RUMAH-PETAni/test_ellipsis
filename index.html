@@ -25,20 +25,6 @@
     <h1>Test for Ellipsis Drive Leafletjs Package</h1>
     <div style="width: 1000px; height: 1000px" id="map"></div>
   
-    <script>
-  
-  var map = L.map("map").setView([-27.3416, 153.074], 13);
-  
-  var tiles = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-  }).addTo(map);
-  
-  new EllipsisVectorLayer({
-    pathId: "37d98130-4029-4225-90c2-b8fc26d7b5b2",
-     token: "epat_S1AjllUDkQFAv4Jsy5GGZ6xrXvKp1sxBGEgnvOWxxaLWXBZUDyBI8j8KdVbhBcyp",
-  }).addTo(map);
-  
-   </script>
+<script src="main.js"></script>
   </body>
 </html>
