@@ -10,6 +10,6 @@
   }).addTo(map);
   
   new EllipsisVectorLayer({
-    pathId: "06ac0f1d-4b46-4f89-be84-accc1ce4843d",
+    pathId: "37d98130-4029-4225-90c2-b8fc26d7b5b2",
   }).addTo(map);
   
