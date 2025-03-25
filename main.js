@@ -11,5 +11,6 @@
   
   new EllipsisVectorLayer({
     pathId: "37d98130-4029-4225-90c2-b8fc26d7b5b2",
+      token: "epat_S1AjllUDkQFAv4Jsy5GGZ6xrXvKp1sxBGEgnvOWxxaLWXBZUDyBI8j8KdVbhBcyp",
   }).addTo(map);
   
